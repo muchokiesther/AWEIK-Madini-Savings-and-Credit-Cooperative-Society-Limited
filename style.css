@@ -1,0 +1,414 @@
+.contact_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.contact_info {
+    display: flex;
+    align-items: center;
+}
+
+.contact_info>p {
+    padding-right: 10px;
+}
+
+.contact_info>ion-icon {
+    background-color: #1A6C8C;
+    border-radius: 50%;
+    color: white;
+    padding: 8px;
+}
+
+.call {
+    font-size: 1.5rem;
+    color: #1A6C8C;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 0.9em;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header ul li:hover {
+    transform: scale(1.35);
+    color: #256a28;
+}
+
+button {
+    margin-left: 5em;
+    padding: 12.5px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #64903E;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.home_page {
+    background: url(assets/hero.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 67.2vh;
+
+    position: relative;
+
+}
+
+.home_text {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-16em, -4.3125em);
+    color: white;
+    z-index: 1;
+}
+
+.home_text h5 {
+    font-size: 15px;
+}
+
+
+
+
+.home_text h1 {
+    color: #1A6B89;
+    font-size: 278.425%;
+    /* text-align: center; */
+}
+
+.home_text span {
+    color: #64903E;
+}
+
+.aboutus_page {
+    background-color: #1A6C8C;
+    display: flex;
+    flex-direction: row;
+    color: #F5F5F5;
+    font-size: 15px;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.become-member, .access_loan ,.empowering ,.start_saving {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.become-member img, .access_loan img , .empowering img, .start_saving img{
+    width: 100px; /* Adjust the width as needed */
+    margin-right: 10px; /* Add some spacing between the image and text */
+}
+
+.become-member p , .access_loan p ,.empowering p ,start_saving p {
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+/* Add style for the highlighted text */
+.highlight-text {
+    font-weight: bold;
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+
+.membership_page {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 3em;
+    justify-content: space-between;
+    /* Adds space to the left and right */
+    align-items: center;
+    /* Vertically centers the content */
+    margin-left: 5rem;
+
+
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.membership_page img {
+    width: 30rem;
+
+}
+
+.savings_page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ADC8D2;
+
+}
+
+.figures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Creates two columns of equal width */
+    gap: 0em;
+    justify-content: space-between;
+    /* Adds space to the left and right */
+    align-items: center;
+    /* Vertically centers the content */
+    gap: 2rem;
+
+}
+
+.borrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1em;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.bottom_text {
+    position: relative;
+    background-color: #256a28;
+    top: -80px;
+    width: 90%;
+    height: 95%;
+    left: 4.5%;
+    border-radius: 5.57px 50px 5.57px 5.57px;
+    background: #F5F5F5;
+    box-shadow: 0px 5.570000171661377px 11.399999618530273px 0px rgba(0, 0, 0, 0.40);
+    text-align: center;
+}
+
+.footerText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.footer_container {
+    background-color: #1A6C8C;
+    padding: 10%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.footer_text {
+    text-align: center;
+
+}
+
+.footer_text::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.white-underline {
+    text-decoration: underline rgba(255, 255, 255, 0.5);
+    /* Set the underline color to white */
+}
+
+
+.social_text {
+    display: grid;
+    place-items: center;
+    /* Vertically and horizontally center the content */
+}
+
+.imgg {
+    position: relative;
+}
+
+.textt {
+    border-radius: 45%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: absolute;
+    top: -20px;
+    /* Adjust the value to position the div slightly above the image */
+}
+
+
+.textt h1 {
+    font-size: 24px;
+}
+
+.textt p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.textt h3 {
+    font-size: 18px;
+}
+
+.textt img {
+    width: 30px;
+    height: auto;
+}
+
+
+/* Media query for screens with a minimum width of 500px */
+@media (max-width: 700px) {
+    .home_page {
+
+        font-size: 100%;
+    }
+
+    .home_page img {
+        background-size: cover;
+    }
+
+    .contact_info {
+        flex-direction: column;
+        /* Stack elements vertically */
+        text-align: center;
+        /* Center align the text in the column */
+    }
+
+    .contact_info>ion-icon {
+        margin-top: 10px;
+        /* Add some space between icons when stacked */
+    }
+
+    .header ul li {
+        display: none
+    }
+
+
+    .header {
+        display: flex;
+        flex-direction: row;
+
+    }
+  
+  
+ 
+
+    .home_page {
+
+        background-size: cover;
+    }
+
+    .home_text {
+        position: absolute;
+       
+        transform: translate(-5.5em, -1.3125em);
+        color: white;
+        z-index: 1;
+    
+    }
+    
+    .home_text h5 {
+        font-size: 15px;
+        /* text-align: center; */
+    }
+    
+    
+    
+    
+    .home_text h1 {
+        color: #1A6B89;
+        font-size:30px;
+        /* text-align: center; */
+    }
+
+    .aboutus_page {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .aboutimg {
+        display: none;
+    }
+
+    .savings_page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .borrow {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 100%;
+
+
+    }
+
+    .borrow img {
+        display: none;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+
+}
