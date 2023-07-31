@@ -1,3 +1,5 @@
+
+
 .contact_info {
     display: flex;
     flex-direction: row;
@@ -26,6 +28,10 @@
     font-size: 1.5rem;
     color: #1A6C8C;
 }
+.world_icon{
+   width: 2rem;
+    
+}
 
 .header {
     display: flex;
@@ -33,6 +39,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5em;
+    color: #74768F;
 
 }
 
@@ -64,7 +71,8 @@ button {
     background-position: center;
     background-size: cover;
     height: 67.2vh;
-
+    margin: 0;
+    padding: 0;
     position: relative;
 
 }
@@ -88,7 +96,7 @@ button {
 .home_text h1 {
     color: #1A6B89;
     font-size: 278.425%;
-    /* text-align: center; */
+
 }
 
 .home_text span {
@@ -111,29 +119,25 @@ button {
 }
 
 .become-member img, .access_loan img , .empowering img, .start_saving img{
-    width: 100px; /* Adjust the width as needed */
-    margin-right: 10px; /* Add some spacing between the image and text */
+    margin-right: 10px; 
 }
 
 .become-member p , .access_loan p ,.empowering p ,start_saving p {
-    font-size: 16px; /* Adjust font size as needed */
+    font-size: 16px;
 }
 
-/* Add style for the highlighted text */
+
 .highlight-text {
     font-weight: bold;
-    font-size: 18px; /* Adjust font size as needed */
+    font-size: 18px; 
 }
 
 
 .membership_page {
     display: flex;
-    /* flex-direction: row; */
     gap: 3em;
     justify-content: space-between;
-    /* Adds space to the left and right */
     align-items: center;
-    /* Vertically centers the content */
     margin-left: 5rem;
 
 
@@ -143,6 +147,9 @@ button {
     display: flex;
     flex-wrap: wrap;
 
+}
+.details h1{
+    color: #1A6C8C;
 }
 
 .membership_page img {
@@ -155,19 +162,20 @@ button {
     flex-direction: row;
     justify-content: space-around;
     background-color: #ADC8D2;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
 
+.savings_page span{
+color: #64903E;
 }
 
 .figures {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* Creates two columns of equal width */
-    gap: 0em;
-    justify-content: space-between;
-    /* Adds space to the left and right */
     align-items: center;
-    /* Vertically centers the content */
     gap: 2rem;
+
 
 }
 
@@ -175,6 +183,10 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.borrow span{
+    color: #64903E;
 }
 
 .grid-container {
@@ -192,6 +204,10 @@ button {
 .image img {
     height: 100%;
     width: 100%;
+}
+
+.title h1{
+    color: #1A6C8C;
 }
 
 .title {
@@ -214,6 +230,14 @@ button {
     text-align: center;
 }
 
+.bottom_text h1{
+   color: #1A6C8C;
+}
+
+.bottom_text h3{
+    color: #76BE37;
+}
+
 .footerText {
     display: flex;
     flex-direction: row;
@@ -230,19 +254,39 @@ button {
     padding: 10%;
     padding-left: 12%;
     padding-right: 12%;
+    
 }
 
 .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    color: white;
 
 }
 
 .footer_text {
     text-align: center;
-
+    color: var(--white, #FFF);
 }
+
+.circle {
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 20px; 
+  }
+  
+  .letter {
+    font-size: 12.5px; 
+    font-weight: bold;
+    color: var(--white, #FFF);
+  }
+  
+  
 
 .footer_text::before {
     content: "";
@@ -256,14 +300,13 @@ button {
 
 .white-underline {
     text-decoration: underline rgba(255, 255, 255, 0.5);
-    /* Set the underline color to white */
+  
 }
 
 
 .social_text {
     display: grid;
     place-items: center;
-    /* Vertically and horizontally center the content */
 }
 
 .imgg {
@@ -277,7 +320,7 @@ button {
     padding: 20px;
     position: absolute;
     top: -20px;
-    /* Adjust the value to position the div slightly above the image */
+ 
 }
 
 
@@ -300,7 +343,6 @@ button {
 }
 
 
-/* Media query for screens with a minimum width of 500px */
 @media (max-width: 700px) {
     .home_page {
 
@@ -313,14 +355,13 @@ button {
 
     .contact_info {
         flex-direction: column;
-        /* Stack elements vertically */
         text-align: center;
-        /* Center align the text in the column */
+       
     }
 
     .contact_info>ion-icon {
         margin-top: 10px;
-        /* Add some space between icons when stacked */
+       
     }
 
     .header ul li {
@@ -353,7 +394,7 @@ button {
     
     .home_text h5 {
         font-size: 15px;
-        /* text-align: center; */
+      
     }
     
     
@@ -362,7 +403,7 @@ button {
     .home_text h1 {
         color: #1A6B89;
         font-size:30px;
-        /* text-align: center; */
+       
     }
 
     .aboutus_page {
