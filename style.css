@@ -1,5 +1,8 @@
-
-
+/* 
+*{
+    margin: 0;
+    padding: 0;
+} */
 .contact_info {
     display: flex;
     flex-direction: row;
@@ -28,9 +31,10 @@
     font-size: 1.5rem;
     color: #1A6C8C;
 }
-.world_icon{
-   width: 2rem;
-    
+
+.world_icon {
+    width: 2rem;
+
 }
 
 .header {
@@ -55,7 +59,7 @@
     color: #256a28;
 }
 
-button {
+.button {
     margin-left: 5em;
     padding: 12.5px;
     border-radius: 5px;
@@ -63,6 +67,30 @@ button {
     background-color: #64903E;
     color: white;
     margin-bottom: 1rem;
+}
+
+.learn-more-two-btn {
+    background-color: #64903E;
+    color: white;
+    padding-top: 15px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.learn-btn {
+    background-color: #64903E;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.register-btn {
+    background-color: #64903E;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: none;
 }
 
 .home_page {
@@ -112,24 +140,34 @@ button {
     justify-content: space-around;
     padding: 2rem;
 }
-.become-member, .access_loan ,.empowering ,.start_saving {
+
+.become-member,
+.access_loan,
+.empowering,
+.start_saving {
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-.become-member img, .access_loan img , .empowering img, .start_saving img{
-    margin-right: 10px; 
+.become-member img,
+.access_loan img,
+.empowering img,
+.start_saving img {
+    margin-right: 10px;
 }
 
-.become-member p , .access_loan p ,.empowering p ,start_saving p {
+.become-member p,
+.access_loan p,
+.empowering p,
+start_saving p {
     font-size: 16px;
 }
 
 
 .highlight-text {
     font-weight: bold;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 
@@ -148,7 +186,8 @@ button {
     flex-wrap: wrap;
 
 }
-.details h1{
+
+.details h1 {
     color: #1A6C8C;
 }
 
@@ -166,8 +205,8 @@ button {
     padding-bottom: 2%;
 }
 
-.savings_page span{
-color: #64903E;
+.savings_page span {
+    color: #64903E;
 }
 
 .figures {
@@ -185,7 +224,7 @@ color: #64903E;
     justify-content: space-around;
 }
 
-.borrow span{
+.borrow span {
     color: #64903E;
 }
 
@@ -206,7 +245,7 @@ color: #64903E;
     width: 100%;
 }
 
-.title h1{
+.title h1 {
     color: #1A6C8C;
 }
 
@@ -230,11 +269,11 @@ color: #64903E;
     text-align: center;
 }
 
-.bottom_text h1{
-   color: #1A6C8C;
+.bottom_text h1 {
+    color: #1A6C8C;
 }
 
-.bottom_text h3{
+.bottom_text h3 {
     color: #76BE37;
 }
 
@@ -254,7 +293,7 @@ color: #64903E;
     padding: 10%;
     padding-left: 12%;
     padding-right: 12%;
-    
+
 }
 
 .footer {
@@ -272,21 +311,21 @@ color: #64903E;
 
 .circle {
     display: inline-block;
-    width: 20px; 
+    width: 20px;
     height: 20px;
     border: 1px solid white;
-    border-radius: 50%; 
+    border-radius: 50%;
     text-align: center;
-    line-height: 20px; 
-  }
-  
-  .letter {
-    font-size: 12.5px; 
+    line-height: 20px;
+}
+
+.letter {
+    font-size: 12.5px;
     font-weight: bold;
     color: var(--white, #FFF);
-  }
-  
-  
+}
+
+
 
 .footer_text::before {
     content: "";
@@ -300,7 +339,7 @@ color: #64903E;
 
 .white-underline {
     text-decoration: underline rgba(255, 255, 255, 0.5);
-  
+
 }
 
 
@@ -320,7 +359,7 @@ color: #64903E;
     padding: 20px;
     position: absolute;
     top: -20px;
- 
+
 }
 
 
@@ -343,8 +382,196 @@ color: #64903E;
 }
 
 
-@media (max-width: 700px) {
-    .home_page {
+@media (min-width: 1920px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact_info {
+        padding-bottom: 1.2em;
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .contact_info img {
+        width: 40px;
+    }
+
+    .logo {
+        width: 10%;
+    }
+
+
+    .button {
+        height: 2.5rem;
+        padding: 2rem;
+        padding-bottom: 3.5rem;
+        font-size: 25px;
+
+    }
+
+    .header {
+        margin-bottom: 2.5rem;
+    }
+.menu{
+    font-size: 30px;
+}
+    .register-btn {
+        margin-top: 10%;
+        width: 25%;
+        font-size: 27.5px;
+        padding: 2rem;
+
+    }
+    .aboutus_page{
+        padding: 5rem;
+    }
+
+    .aboutus_page p {
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+
+    .membership_page {
+        padding: 50px;
+        align-items: center;
+    }
+
+    .membership_page h1 {
+        font-size: 50px;
+        padding-top: 1rem;
+    }
+
+    .aboutimg img {
+        width: 50rem;
+        position: relative;
+        top: -2rem;
+
+    }
+
+    .membership_page p {
+        font-size: 27px;
+    }
+
+    .details {
+        margin-top: 0.5rem;
+    }
+
+    .learn-btn {
+        font-size: 25px;
+      padding:2rem;
+        width: 80%;
+        margin-left: 1rem;
+    }
+
+
+
+
+    .home_text {
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 10rem;
+        padding-left: 10rem;
+    }
+
+    .home_text h5 {
+        font-size: 2.5rem;
+    }
+
+    .figures img {
+        width: 5rem;
+        height: 15%;
+    }
+
+    .figures p {
+        font-size: 25px;
+    }
+
+    .savings_page h1 {
+        font-size: 50px;
+    }
+
+    .savings_page p {
+        font-size: 27px;
+    }
+
+    .learn-more-two-btn {
+        margin-top: 2rem;
+        width: 30%;
+        font-size: 25px;
+        padding:1.2rem;
+
+    }
+
+    .borrow{
+        padding: 5rem;
+        padding-bottom: 6.5rem;
+    }
+
+    .text-borrow p{
+        line-height: 2.5rem;
+        font-size: 25px;
+    }
+    .text-borrow h1{
+        font-size: 40px;
+    }
+.title{
+padding-bottom: 3rem;
+}
+
+.title h1{
+    font-size:50px ;
+}
+
+.title p{
+    font-size:25.5px ;
+}
+
+.bottom_text{
+    padding:1.2rem;
+}
+
+.bottom_text h1{
+    font-size: 2.5rem;
+}
+
+.bottom_text p{
+    font-size: 1.2rem;
+    padding-bottom: 25px;
+} 
+
+.footerText h3{
+font-size: 1.8rem;
+}
+
+.footerText img{
+    width:2rem;
+}
+
+  .footer li{
+font-size: 1.5rem;
+  }
+
+  .footer_text{
+    font-size: 1.2rem;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* .home_page {
 
         font-size: 100%;
     }
@@ -450,6 +677,4 @@ color: #64903E;
         justify-content: space-around;
 
     }
-
-
-}
+ */
