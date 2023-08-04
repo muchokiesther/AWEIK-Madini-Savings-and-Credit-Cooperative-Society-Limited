@@ -88,7 +88,7 @@
 .register-btn {
     background-color: #64903E;
     color: white;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
     border-style: none;
 }
@@ -403,6 +403,7 @@ start_saving p {
     }
 
 
+
     .button {
         height: 2.5rem;
         padding: 2rem;
@@ -414,9 +415,11 @@ start_saving p {
     .header {
         margin-bottom: 2.5rem;
     }
-.menu{
-    font-size: 30px;
-}
+
+    .menu {
+        font-size: 30px;
+    }
+
     .register-btn {
         margin-top: 10%;
         width: 25%;
@@ -424,7 +427,8 @@ start_saving p {
         padding: 2rem;
 
     }
-    .aboutus_page{
+
+    .aboutus_page {
         padding: 5rem;
     }
 
@@ -460,7 +464,7 @@ start_saving p {
 
     .learn-btn {
         font-size: 25px;
-      padding:2rem;
+        padding: 2rem;
         width: 80%;
         margin-left: 1rem;
     }
@@ -500,65 +504,170 @@ start_saving p {
         margin-top: 2rem;
         width: 30%;
         font-size: 25px;
-        padding:1.2rem;
+        padding: 1.2rem;
 
     }
 
-    .borrow{
+    .borrow {
         padding: 5rem;
         padding-bottom: 6.5rem;
     }
 
-    .text-borrow p{
+    .text-borrow p {
         line-height: 2.5rem;
         font-size: 25px;
     }
-    .text-borrow h1{
+
+    .text-borrow h1 {
         font-size: 40px;
     }
-.title{
-padding-bottom: 3rem;
+
+    .title {
+        padding-bottom: 3rem;
+    }
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .title p {
+        font-size: 25.5px;
+    }
+
+    .bottom_text {
+        padding: 1.2rem;
+    }
+
+    .bottom_text h1 {
+        font-size: 2.5rem;
+    }
+
+    .bottom_text p {
+        font-size: 1.2rem;
+        padding-bottom: 25px;
+    }
+
+    .footerText h3 {
+        font-size: 1.8rem;
+    }
+
+    .footerText img {
+        width: 2rem;
+    }
+
+    .footer li {
+        font-size: 1.5rem;
+    }
+
+    .footer_text {
+        font-size: 1.2rem;
+    }
+
+
+
 }
 
-.title h1{
-    font-size:50px ;
+@media (min-width:1280px) and (max-width:1919px) {
+    .home_text h5 {
+        font-size: 1.5rem;
+    }
+
+    .register-btn {
+        padding: 1rem;
+        width: 7rem;
+    }
+
+    .membership_page {
+        padding-bottom: 2rem;
+    }
+
+    .borrow {
+        padding-bottom: 2.2rem;
+    }
+
+    .learn-more-two-btn {
+        padding-bottom: 2.5%;
+        width: 20%;
+    }
 }
 
-.title p{
-    font-size:25.5px ;
-}
+@media (min-width: 768px) and (max-width: 981px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: #74768F;
+        font-size: 14.5px;
 
-.bottom_text{
-    padding:1.2rem;
-}
+    }
 
-.bottom_text h1{
-    font-size: 2.5rem;
-}
+    .aboutus_page p{
+        font-size: 15.5px;
+    }
 
-.bottom_text p{
-    font-size: 1.2rem;
-    padding-bottom: 25px;
-} 
+    .hamburger {
+        display: none;
+    }
 
-.footerText h3{
-font-size: 1.8rem;
-}
+    .home_text h5 {
+        font-size: 1.2rem;
+    }
 
-.footerText img{
-    width:2rem;
-}
+    .button {
+        margin-left: 30rem;
+    }
 
-  .footer li{
-font-size: 1.5rem;
-  }
+    .aboutimg img {
+        width: 20rem;
+    }
 
-  .footer_text{
-    font-size: 1.2rem;
-  }
+    .membership_page {
+        padding-bottom: 1.3rem;
+    }
 
+    .details {
+        padding-right: 3.5rem;
+    }
 
+    .details h1 {
+        font-size: 1.2rem;
+    }
 
+    .details p {
+        font-size: 0.95rem;
+    }
+
+    .savings-text h1 {
+        font-size: 25.5px;
+    }
+
+    .savings-text p {
+        font-size: 15.5px;
+    }
+
+    .learn-more-two-btn {
+        padding-bottom: 1rem;
+        width: 25%;
+    }
+
+    .borrow {
+        padding: 2rem;
+    }
+
+    .borrow img {
+        width: 20rem;
+    }
+
+    .text-borrow p {
+        line-height: 1rem;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
 
 }
 
