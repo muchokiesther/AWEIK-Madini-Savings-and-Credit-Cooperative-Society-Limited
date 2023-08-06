@@ -1,8 +1,4 @@
-/* 
-*{
-    margin: 0;
-    padding: 0;
-} */
+
 .contact_info {
     display: flex;
     flex-direction: row;
@@ -27,15 +23,13 @@
     padding: 8px;
 }
 
+
 .call {
     font-size: 1.5rem;
     color: #1A6C8C;
 }
 
-.world_icon {
-    width: 2rem;
 
-}
 
 .header {
     display: flex;
@@ -56,6 +50,10 @@
 
 .header ul li:hover {
     transform: scale(1.35);
+    color: #256a28;
+}
+
+.hamburger{
     color: #256a28;
 }
 
@@ -98,7 +96,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 67.2vh;
+    height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;
@@ -173,12 +171,11 @@ start_saving p {
 
 .membership_page {
     display: flex;
+    flex-direction: row;
     gap: 3em;
     justify-content: space-between;
     align-items: center;
-    margin-left: 5rem;
-
-
+    padding: 1.5rem;
 }
 
 .details {
@@ -201,8 +198,7 @@ start_saving p {
     flex-direction: row;
     justify-content: space-around;
     background-color: #ADC8D2;
-    padding-top: 4%;
-    padding-bottom: 2%;
+
 }
 
 .savings_page span {
@@ -435,11 +431,13 @@ start_saving p {
     .aboutus_page p {
         font-size: 2rem;
         font-weight: lighter;
+    
     }
-
     .membership_page {
-        padding: 50px;
+     padding: 10rem;
         align-items: center;
+        display: flex;
+        flex-direction: row;
     }
 
     .membership_page h1 {
@@ -457,6 +455,7 @@ start_saving p {
     .membership_page p {
         font-size: 27px;
     }
+    
 
     .details {
         margin-top: 0.5rem;
@@ -492,6 +491,10 @@ start_saving p {
         font-size: 25px;
     }
 
+    .savings_page{
+        padding: 10rem;
+    }
+
     .savings_page h1 {
         font-size: 50px;
     }
@@ -509,13 +512,14 @@ start_saving p {
     }
 
     .borrow {
-        padding: 5rem;
+        padding: 10rem;
         padding-bottom: 6.5rem;
     }
 
     .text-borrow p {
         line-height: 2.5rem;
-        font-size: 25px;
+        font-size: 25.5px;
+  
     }
 
     .text-borrow h1 {
@@ -602,7 +606,7 @@ start_saving p {
 
     }
 
-    .aboutus_page p{
+    .aboutus_page p {
         font-size: 15.5px;
     }
 
@@ -673,14 +677,8 @@ start_saving p {
 
 
 
-
-
-
-
-
-
-
-/* .home_page {
+@media (min-width: 480px) and (max-width: 767px) {
+    .home_page {
 
         font-size: 100%;
     }
@@ -692,12 +690,12 @@ start_saving p {
     .contact_info {
         flex-direction: column;
         text-align: center;
-       
+
     }
 
     .contact_info>ion-icon {
         margin-top: 10px;
-       
+
     }
 
     .header ul li {
@@ -708,11 +706,12 @@ start_saving p {
     .header {
         display: flex;
         flex-direction: row;
-
+        align-items: center;
+        padding-top: 2.5rem;
     }
-  
-  
- 
+
+
+
 
     .home_page {
 
@@ -721,25 +720,29 @@ start_saving p {
 
     .home_text {
         position: absolute;
-       
+
         transform: translate(-5.5em, -1.3125em);
         color: white;
         z-index: 1;
-    
+
     }
-    
+
     .home_text h5 {
         font-size: 15px;
-      
+
     }
-    
-    
-    
-    
+
+    .membership_page {
+        padding-bottom: 2rem;
+    }
+
+
+
+
     .home_text h1 {
         color: #1A6B89;
-        font-size:30px;
-       
+        font-size: 30px;
+
     }
 
     .aboutus_page {
@@ -750,8 +753,19 @@ start_saving p {
 
 
     .aboutimg {
-        display: none;
+        margin-right: 5rem;
+
     }
+
+    .aboutimg img {
+        width: 29rem;
+    }
+
+    .aboutus_page {
+        display: grid;
+        align-items: center;
+    }
+
 
     .savings_page {
         display: flex;
@@ -760,19 +774,30 @@ start_saving p {
         text-align: center;
     }
 
+    .savings-text h1 {
+        font-size: 27px;
+    }
+
+    .savings-text p {
+        font-size: 15px;
+    }
+
+    .learn-more-two-btn {
+        padding-bottom: 3.5%;
+        padding: 3.5%;
+    }
+
 
     .borrow {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         font-size: 100%;
-
+        padding-bottom: 5rem;
 
     }
 
-    .borrow img {
-        display: none;
-    }
+
 
     .grid-container {
         display: flex;
@@ -786,4 +811,209 @@ start_saving p {
         justify-content: space-around;
 
     }
- */
+}
+
+@media (max-width: 480px) {
+    .home_page {
+        font-size: 100%;
+
+    }
+
+    .home_page img {
+        background-size: cover;
+    }
+
+    .contact_info {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .contact_info>ion-icon {
+        margin-top: 10px;
+
+    }
+
+    .header ul li {
+        display: none
+    }
+
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 2.5rem;
+    }
+
+
+
+
+    .home_page {
+
+        background-size: cover;
+    }
+
+    .home_text {
+        position: absolute;
+
+        transform: translate(-5.5em, -1.3125em);
+        color: white;
+        z-index: 1;
+
+
+    }
+
+
+
+    .home_text h5 {
+        font-size: 20px;
+
+    }
+
+    .membership_page {
+        padding-bottom: 2rem;
+    }
+
+
+
+
+    .home_text h1 {
+        color: #1A6B89;
+        font-size: 30px;
+
+    }
+
+    .aboutus_page {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .aboutimg {
+        margin-right: 5rem;
+
+    }
+
+    .aboutimg img {
+        width: 29rem;
+    }
+
+    .aboutus_page {
+        display: grid;
+        align-items: center;
+    }
+
+
+    .savings_page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .savings-text h1 {
+        font-size: 27px;
+    }
+
+    .savings-text p {
+        font-size: 15px;
+    }
+
+    .learn-more-two-btn {
+        padding-bottom: 3.5%;
+        padding: 3.5%;
+    }
+
+
+    .borrow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 100%;
+        padding-bottom: 5rem;
+        padding-right: 10%;
+
+    }
+.text-borrow p{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+font-size: 12.5px;
+padding-left: 1.2rem;
+padding-right: 1.2rem;
+
+
+}
+
+.card h1{
+    font-size: 20px;
+    
+}
+
+.card p{
+    font-size: 13.5px
+}
+
+.text-borrow h1{
+    font-size: 15px;
+    padding-left: 2rem;
+padding-right: 1rem;
+}
+
+.title p{
+    font-size: 13.5px;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.text-borrow h1{
+    font-size: 17.5px;
+  
+}
+
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+   
+.membership_page {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.aboutimg img{
+display: none;
+}
+
+.borrow img{
+    width:15rem;
+}
+
+.details{
+    font-size: 13.5px;
+}
+
+.savings-text h1{
+    font-size: 19.5px;
+}
+.savings-text p{
+    font-size: 13.5px;
+}
+
+}
